@@ -1,0 +1,168 @@
+<%- include('start'); -%>
+    <div class="row">
+        <div class="col col-lg-12" style="background: url('/images/wall.jpg') no-repeat center center/cover; height: 500px;box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);">
+            <nav class="navbar navbar-expand-lg navbar-light" style="margin-left: 42%;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                      <li class="nav-item rectype" style="color: blue; position: relative; top: 8px;">
+                        <i class="fa fa-user-circle" aria-hidden="true"></i> Hi, <%= username %> !
+                      </li>
+                      <li class="nav-item rectype" style="padding: 0px 3px;">
+            
+                        <a class="nav-link active" aria-current="page" href="/recipes">Home</a>
+                      </li>
+                      <li class="nav-item rectype">
+                        <a class="nav-link" href="/about">About us</a>
+                      </li>
+                      <li class="nav-item rectype">
+                        <a class="nav-link rectype" href="#cuisine">Cuisines</a>
+                      </li>
+                      <li class="nav-item rectype">
+                        <a class="nav-link rectype" href="/contact">Reach us</a>
+                      </li>
+                      <li class="nav-item rectype">
+                        <a class="nav-link rectype" href="/logout"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                      </li>
+                    
+                  </div>
+                </div>
+              </nav>
+        <h1 class="my-5 a1" style="font-size: 5rem; font-weight: bold;text-shadow: 2px 2px #ff0000; font-family: 'Style Script', cursive;">Welcome to Cookit</h1>
+         <div class="a1 a2">
+            <q>Food for us comes from our relatives, whether they have wings or fins or roots. That is how we consider food. Food has a culture. It has a history. It has a story. It has relationships.</q>    
+           <br> – Winona LaDuke 
+        </div>
+    </div>
+    </div>
+<section class="recipe d-flex justify-content-center" style="background-color: bisque;">
+    <div class="container" style="padding-top: 40px;" align="center">
+    
+ 
+            <div class="lide" style="background-color: rgb(250, 184, 184);">
+               <img src="/images/d-1.jpg" alt="" width="200px" height="200px">
+<img src="/images/a-1.jpg" alt="" width="200px" height="200px">
+<img src="/images/sd-1.jpg" alt="" width="200px" height="200px">
+<img src="/images/b-2.jpg" alt="" width="200px" height="200px">
+<img src="/images/br-2.jpg" alt="" width="200px" height="200px">
+<img src="/images/soup-2.jpg" alt="" width="200px" height="200px">
+<img src="/images/bev-2.jpg" alt="" width="200px" height="200px" >
+<img src="/images/sauce-2.jpg" alt="" width="200px" height="200px">
+<img src="/images/marinade-2.jpg" alt="" width="200px" height="200px">
+<img src="/images/ff-2.jpg" alt="" width="200px" height="200px">
+<img src="/images/snack-2.jpg" alt="" width="200px" height="200px">
+<img src="/images/drink-2.jpg" alt="" width="200px" height="200px">
+
+            </div>
+            <div class="pinch d-flex justify-content-center" >
+              <h1 style="font-size: 6rem; position: relative; bottom: 450px; color: white;">Add a pinch.</h1>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <div class="col col-lg-12 d-flex justify-content-center">
+                    <div class="rod" style="position: relative; bottom: 54px;">
+                      <h3>Recipe of the day</h3>
+                    </div>
+                   
+                  
+              </div>
+              <hr class="style18" >
+              <div class="container" id="cuisine" style="padding-bottom: 50px;">
+            <div class="row d-flex justify-content-center">
+                <div class="col col-lg-12" align="center">
+                    <h1>What's hot?</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center my-3">
+                <div class="col col-lg-4 f" align="center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body region">
+                          <h5 class="card-title">American</h5>
+                          <a href="/recipes/american" class="btn btn-dark">View</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-lg-4 f" align="center">
+                  <div class="card" style="width: 18rem;">
+                      <div class="card-body region">
+                        <h5 class="card-title">Chinese</h5>
+                        <a href="/recipes/chinese" class="btn btn-dark">View</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col col-lg-4 f" align="center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body region">
+                      <h5 class="card-title">European</h5>
+                      <a href="/recipes/european" class="btn btn-dark">View</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col col-lg-4 f" align="center">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body region">
+                    <h5 class="card-title">French</h5>
+                    <a href="/recipes/french" class="btn btn-dark">View</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col col-lg-4 f" align="center">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body region">
+                  <h5 class="card-title">German</h5>
+                  <a href="/recipes/german" class="btn btn-dark">View</a>
+                </div>
+              </div>
+        </div>
+        <div class="col col-lg-4 f" align="center">
+          <div class="card" style="width: 18rem;">
+              <div class="card-body region">
+                <h5 class="card-title">Indian</h5>
+                <a href="/recipes/indian" class="btn btn-dark">View</a>
+              </div>
+            </div>
+      </div>
+      <div class="col col-lg-4 f" align="center">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body region">
+              <h5 class="card-title">Italian</h5>
+              <a href="/recipes/italian" class="btn btn-dark">View</a>
+            </div>
+          </div>
+    </div>
+    <div class="col col-lg-4 f" align="center">
+      <div class="card" style="width: 18rem;">
+          <div class="card-body region">
+            <h5 class="card-title">Korean</h5>
+            <a href="/recipes/korean" class="btn btn-dark">View</a>
+          </div>
+        </div>
+  </div>
+  <div class="col col-lg-4 f" align="center">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body region">
+          <h5 class="card-title">Mexican</h5>
+          <a href="/recipes/mexican" class="btn btn-dark">View</a>
+        </div>
+      </div>
+</div>
+<div class="col col-lg-4 f" align="center">
+  <div class="card" style="width: 18rem;">
+      <div class="card-body region">
+        <h5 class="card-title">Thai</h5>
+        <a href="/recipes/thai" class="btn btn-dark">View</a>
+      </div>
+    </div>
+</div>
+</div>
+            </div>
+
+        </div>
+    
+</section>
+
+
+<%- include('end'); -%>
